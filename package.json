@@ -2,30 +2,26 @@
   "name": "node-template-converter",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "commitlint.config.js",
+  "dependencies": {
+    "husky": "^7.0.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GnomGad/asdas.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {},
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS -g './config/git/commitlint.js'"
-    }
+  "bugs": {
+    "url": "https://github.com/GnomGad/asdas/issues"
   },
-  "devDependencies": {
-    "@commitlint/cli": "^12.1.4",
-    "cz-customizable": "^6.3.0",
-    "husky": "^7.0.1"
-  },
-  "config": {
-    "commitizen": {
-      "path": "node_modules/cz-customizable"
-    },
-    "cz-customizable": {
-      "config": "config/git/commitizen.js"
-    }
-  }
+  "homepage": "https://github.com/GnomGad/asdas#readme"
 }
