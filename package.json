@@ -6,9 +6,18 @@
   "dependencies": {
     "husky": "^7.0.1"
   },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": "config/git/commitizen.js"
+    }
+  },
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
+    "cz-customizable": "^6.3.0",
     "standard-version": "^9.3.0"
   },
   "scripts": {
