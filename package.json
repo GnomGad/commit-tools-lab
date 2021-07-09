@@ -1,6 +1,6 @@
 {
   "name": "node-template-converter",
-  "version": "1.2.0",
+  "version": "1.2.1-0",
   "description": "",
   "main": "commitlint.config.js",
   "dependencies": {
@@ -11,7 +11,7 @@
       "path": "node_modules/cz-customizable"
     },
     "cz-customizable": {
-      "config": "config/git/commitizen2.0.js"
+      "config": "config/git/commitizen.js"
     }
   },
   "devDependencies": {
